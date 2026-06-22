@@ -1,0 +1,106 @@
+# Gold fit — Generative Engine Optimization Map
+
+> An online store specializing in football (soccer) jerseys. The business revolves around football culture and fan apparel, likely targeting football enthusiasts and fans who want to purchase jerseys.
+
+---
+
+## Pages
+
+### בית
+https://gold-fit-3615dca6.zappy5.app
+גלי את חולצות הכדורגל האיכותיות ביותר פה – חנות האונליין המובילה לחולצות כדורגל מקוריות ומעוצבות. הצטרפי לתרבות האוהדים ושדרגי את ההופעה ביציע עוד היום!
+
+### אודות
+https://gold-fit-3615dca6.zappy5.app/about
+צללי אל מאחורי הקלעים של Gold fit – המקום שבו חולצות הכדורגל האיכותיות ביותר פה פוגשות מורשת אוהדים אמיתית. הכירי את החזון שמניע אותנו לספק רק את הטוב ביותר למגרש.
+
+### מדריך האוספים
+https://gold-fit-3615dca6.zappy5.app/collections-guide
+ניווטי בקלות בין הקולקציות שלנו עם מדריך האוספים המקיף. גלי איזו חולצה מהחולצות הכדורגל האיכותיות ביותר פה מתאימה לך, ותתכונני לעונה הבאה כמו אלופה אמיתית.
+
+### צור קשר
+https://gold-fit-3615dca6.zappy5.app/contact
+יש לך שאלה על חולצות הכדורגל האיכותיות ביותר פה? צרי קשר עם צוות Gold fit עוד היום – אנחנו פה כדי להבטיח שתקבלי את החולצה המושלמת שתגרום לך להרגיש חלק מהמשחק.
+
+### Products
+https://gold-fit-3615dca6.zappy5.app/products
+המוצרים שלנו - Gold fit
+
+### Cart
+https://gold-fit-3615dca6.zappy5.app/cart
+עגלת הקניות שלך
+
+### Checkout
+https://gold-fit-3615dca6.zappy5.app/checkout
+תשלום
+
+### Login
+https://gold-fit-3615dca6.zappy5.app/login
+התחברות לקוחות
+
+### Account
+https://gold-fit-3615dca6.zappy5.app/account
+החשבון שלי
+
+### Order Success
+https://gold-fit-3615dca6.zappy5.app/order-success
+תודה על ההזמנה
+
+### Product Detail
+https://gold-fit-3615dca6.zappy5.app/product/:slug
+פרטי המוצר - Gold fit
+
+### Category
+https://gold-fit-3615dca6.zappy5.app/category/:slug
+מוצרים - Gold fit
+
+### תודה שפניתם אלינו
+https://gold-fit-3615dca6.zappy5.app/thank-you
+Gold fit - תודה שפניתם אלינו
+
+## Legal & Policy
+
+### Privacy Policy
+https://gold-fit-3615dca6.zappy5.app/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://gold-fit-3615dca6.zappy5.app/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://gold-fit-3615dca6.zappy5.app/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+## Products
+
+_No products are currently configured._
+
+---
+
+# Business Context (for LLM understanding)
+
+## About Gold fit
+An online store specializing in football (soccer) jerseys. The business revolves around football culture and fan apparel, likely targeting football enthusiasts and fans who want to purchase jerseys.
+
+## Services/Products
+- חולצות כדורגל
+
+## Target Audience
+- חובבי כדורגל מושבעים
+- אוהבי כדורגל
+
+## Industry
+Sports Apparel E-commerce
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://gold-fit-3615dca6.zappy5.app/sitemap.xml
+- Robots: https://gold-fit-3615dca6.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://gold-fit-3615dca6.zappy5.app/llms-full.txt
+- Products (JSON): https://gold-fit-3615dca6.zappy5.app/products.json
+- Products (Google Merchant RSS): https://gold-fit-3615dca6.zappy5.app/product-feed.xml
