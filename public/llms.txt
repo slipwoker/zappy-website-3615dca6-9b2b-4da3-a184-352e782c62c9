@@ -7,69 +7,69 @@
 ## Pages
 
 ### בית
-https://gold-fit-3615dca6.zappy5.app
+https://example.com
 גלי את חולצות הכדורגל האיכותיות ביותר פה – חנות האונליין המובילה לחולצות כדורגל מקוריות ומעוצבות. הצטרפי לתרבות האוהדים ושדרגי את ההופעה ביציע עוד היום!
 
 ### אודות
-https://gold-fit-3615dca6.zappy5.app/about
+https://example.com/about
 צללי אל מאחורי הקלעים של Gold fit – המקום שבו חולצות הכדורגל האיכותיות ביותר פה פוגשות מורשת אוהדים אמיתית. הכירי את החזון שמניע אותנו לספק רק את הטוב ביותר למגרש.
 
 ### מדריך האוספים
-https://gold-fit-3615dca6.zappy5.app/collections-guide
+https://example.com/collections-guide
 ניווטי בקלות בין הקולקציות שלנו עם מדריך האוספים המקיף. גלי איזו חולצה מהחולצות הכדורגל האיכותיות ביותר פה מתאימה לך, ותתכונני לעונה הבאה כמו אלופה אמיתית.
 
 ### צור קשר
-https://gold-fit-3615dca6.zappy5.app/contact
+https://example.com/contact
 יש לך שאלה על חולצות הכדורגל האיכותיות ביותר פה? צרי קשר עם צוות Gold fit עוד היום – אנחנו פה כדי להבטיח שתקבלי את החולצה המושלמת שתגרום לך להרגיש חלק מהמשחק.
 
 ### Products
-https://gold-fit-3615dca6.zappy5.app/products
+https://example.com/products
 המוצרים שלנו - Gold fit
 
 ### Cart
-https://gold-fit-3615dca6.zappy5.app/cart
+https://example.com/cart
 עגלת הקניות שלך
 
 ### Checkout
-https://gold-fit-3615dca6.zappy5.app/checkout
+https://example.com/checkout
 תשלום
 
 ### Login
-https://gold-fit-3615dca6.zappy5.app/login
+https://example.com/login
 התחברות לקוחות
 
 ### Account
-https://gold-fit-3615dca6.zappy5.app/account
+https://example.com/account
 החשבון שלי
 
 ### Order Success
-https://gold-fit-3615dca6.zappy5.app/order-success
+https://example.com/order-success
 תודה על ההזמנה
 
 ### Product Detail
-https://gold-fit-3615dca6.zappy5.app/product/:slug
+https://example.com/product/:slug
 פרטי המוצר - Gold fit
 
 ### Category
-https://gold-fit-3615dca6.zappy5.app/category/:slug
+https://example.com/category/:slug
 מוצרים - Gold fit
 
 ### תודה שפניתם אלינו
-https://gold-fit-3615dca6.zappy5.app/thank-you
+https://example.com/thank-you
 Gold fit - תודה שפניתם אלינו
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://gold-fit-3615dca6.zappy5.app/privacy
+https://example.com/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://gold-fit-3615dca6.zappy5.app/terms
+https://example.com/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://gold-fit-3615dca6.zappy5.app/accessibility
+https://example.com/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
@@ -99,8 +99,8 @@ Sports Apparel E-commerce
 
 # Machine-readable feeds
 
-- Sitemap (XML): https://gold-fit-3615dca6.zappy5.app/sitemap.xml
-- Robots: https://gold-fit-3615dca6.zappy5.app/robots.txt
-- Flattened page text (for LLMs): https://gold-fit-3615dca6.zappy5.app/llms-full.txt
-- Products (JSON): https://gold-fit-3615dca6.zappy5.app/products.json
-- Products (Google Merchant RSS): https://gold-fit-3615dca6.zappy5.app/product-feed.xml
+- Sitemap (XML): https://example.com/sitemap.xml
+- Robots: https://example.com/robots.txt
+- Flattened page text (for LLMs): https://example.com/llms-full.txt
+- Products (JSON): https://example.com/products.json
+- Products (Google Merchant RSS): https://example.com/product-feed.xml
