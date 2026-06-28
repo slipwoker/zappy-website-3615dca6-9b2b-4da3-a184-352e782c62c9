@@ -13609,6 +13609,11 @@ function fixContrast(){
       }
 
       var c = ['justify-content:center!important'];
+      if (hAlign === 'center') {
+        c.push('margin-left:auto!important');
+        c.push('margin-right:auto!important');
+        c.push('text-align:center!important');
+      }
       if (!isFlex && hAlign !== 'center') {
         c.push('min-width:33.33%!important');
         c.push('text-align:start!important');
@@ -13616,6 +13621,10 @@ function fixContrast(){
 
       var css = '';
       if (hPx !== 0 || vPx !== 0) css += sel + '{overflow:hidden!important}';
+      if (hAlign === 'center') {
+        css += sel + '{display:flex!important;flex-direction:column!important;justify-content:center!important;align-items:center!important;text-align:center!important}';
+        t.push('text-align:center!important');
+      }
       css += sel + ' [data-zappy-align-target]{' + t.join(';') + '}';
       css += sel + ' [data-zappy-align-target]>*{' + c.join(';') + '}';
       css += '@media(max-width:768px){' +
@@ -15512,6 +15521,67 @@ function fixContrast(){
       window.zappyI18n.onLanguageChange(function() { setTimeout(patchCheckoutI18n, 300); });
     }
   })();
+
+  function reviveCanonicalHeroBackgroundWrappers() {
+    try {
+      var imgs = document.querySelectorAll('img[data-hero-bg], img[data-hero-background="true"]');
+      for (var i = 0; i < imgs.length; i++) {
+        var img = imgs[i];
+        var parent = img.parentElement;
+        while (parent && parent !== document.body && parent.tagName !== 'SECTION') {
+          parent.style.display = '';
+          parent.removeAttribute('data-zappy-original-bg');
+          parent.removeAttribute('data-zappy-preview-hidden');
+          parent = parent.parentElement;
+        }
+        img.removeAttribute('data-zappy-original-bg');
+      }
+    } catch (e) {}
+  }
+
+  function scheduleCanonicalHeroWrapperRevival() {
+    reviveCanonicalHeroBackgroundWrappers();
+    [100, 500, 1500, 3000, 6000, 10000].forEach(function(delay) {
+      setTimeout(reviveCanonicalHeroBackgroundWrappers, delay);
+    });
+    try {
+      if (window.__zappyHeroWrapperRevivalObserver) return;
+      var observer = new MutationObserver(function(mutations) {
+        for (var i = 0; i < mutations.length; i++) {
+          var target = mutations[i].target;
+          if (!target || !target.querySelector) continue;
+          if (
+            (target.matches && target.matches('img[data-hero-bg], img[data-hero-background="true"]')) ||
+            target.querySelector('img[data-hero-bg], img[data-hero-background="true"]')
+          ) {
+            reviveCanonicalHeroBackgroundWrappers();
+            break;
+          }
+        }
+      });
+      observer.observe(document.documentElement, {
+        childList: true,
+        subtree: true,
+        attributes: true,
+        attributeFilter: ['style', 'data-zappy-original-bg', 'data-zappy-preview-hidden']
+      });
+      window.__zappyHeroWrapperRevivalObserver = observer;
+      setTimeout(function() {
+        try {
+          observer.disconnect();
+          if (window.__zappyHeroWrapperRevivalObserver === observer) {
+            window.__zappyHeroWrapperRevivalObserver = null;
+          }
+        } catch (e) {}
+      }, 15000);
+    } catch (e) {}
+  }
+
+  scheduleCanonicalHeroWrapperRevival();
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', scheduleCanonicalHeroWrapperRevival, { once: true });
+  }
+  window.addEventListener('load', scheduleCanonicalHeroWrapperRevival, { once: true });
 
 })();
 
